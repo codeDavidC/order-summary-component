@@ -26,7 +26,7 @@ html {
 /* CONTENT STYLING */
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: url(/images/pattern-background-mobile.svg) no-repeat center/cover, var(--pale-blue);
+    background: url(images/pattern-background-mobile.svg) no-repeat center/cover, var(--pale-blue);
     background-size: 100%;
 }
 
@@ -38,7 +38,7 @@ body {
     padding-right: 15px;
     border-radius: 15px;
     background-color: #fff;
-    background: url(/images/illustration-hero.svg) no-repeat top center, #ffffff;
+    background: url(images/illustration-hero.svg) no-repeat top center, #ffffff;
     background-size: 100%;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ h4 {
 
 @media screen and (min-width: 768px) {
     body {
-        background: url(/images/pattern-background-desktop.svg) no-repeat top/cover, var(--pale-blue);
+        background: url(images/pattern-background-desktop.svg) no-repeat top/cover, var(--pale-blue);
         background-size: 100%;
     }
 
