@@ -28,12 +28,15 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     background: url(images/pattern-background-mobile.svg) no-repeat center/cover, var(--pale-blue);
     background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-content {
-    width: 325px;
-    margin: 20px auto;
-    padding-top: 190px;
+    max-width: 325px;
+    margin: 20px;
+    padding-top: 180px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15px;
@@ -65,7 +68,7 @@ h2 {
     font-size: 1em;
     text-align: center;
     line-height: 1.5em;
-    padding: 20px;
+    padding: 10px;
 }
 
 .container {
@@ -145,26 +148,26 @@ h2 {
 
     .main-content {
         width: 450px;
-        padding-top: 260px;
+        padding-top: 180px;
 
     }
 
     .main-content>p {
-        padding: 20px 32px;
+        padding: 20px 20px;
 
     }
 
     .pricing {
-        width: 180px;
+        width: 140px;
     }
 
     .btn-primary {
         margin-top: 30px;
-        padding: 17px 100px;
+        padding: 17px 80px;
     }
 
     .btn-secondary {
-        margin: 40px;
+        margin: 30px;
 
     }
 }
